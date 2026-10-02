@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.openai.com/static-rsc-4/uD6JJfQSjNXCHIOhnfR-BgeB1xmhxSrfGRH9MBoPfyG7b6Jqjv-P3xzvAyy94xxff-kOpBH8MWIaTPYhgoeEiaMEDQt-go64Se0ZIeoSzQx-AwNMICVafhyo0tqc3R47rs-4J2dPBwa6y-8TsArPY7eokFUnTvxzzwPmn2YwcYnnuUGGGW0KVANfCIauId6R?purpose=fullsize);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.larger_box {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.city-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #2c2b2b;
+    color: #fff;
+    width: calc(100% - 100px);
+}
+.search-button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #2c2b2b;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    
+}
+
+.search-icon {
+    width: 20px;
+}
+
+.average-box {
+    margin-top: 30px;
+
+}
+
+.city-name {
+   color: #fff;
+   font-size: 25px;
+   font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.smaller-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.weather-description {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.humidity {
+    color: #fff;
+    margin-top: 20px;
+}
